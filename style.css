@@ -59,12 +59,19 @@ img {
 .site-menu ul li {
     margin-left: 20px;
     margin-right: 20px;
+    height: 50px;
+    vertical-align: middle;
 }
 
-.site-menu ul li a {
+.site-menu ul li p a {
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
 }
+
+.site-menu ul li p {
+    margin-top: 15px;
+}
+
 
 .footer {
     color: #ffffff;
@@ -113,7 +120,7 @@ img {
 
 .first-view-text {
     width: 100%;
-    max-width: 1200px;
+    max-width: 1300px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 40px;
@@ -121,45 +128,52 @@ img {
     color: #ffffff;
     font-weight: bold;
     text-shadow: 1px 1px 10px #4b2c14;
+    position: relative;
+    height: 100%;
 }
 
 .first-view-text h1 {
     font-family: 'Montserrat' , sans-serif;
-    font-size: 56px;
+    font-size: 70px;
     line-height: 72px;
+    padding-top: 25%;
 }
 
 .first-view-text p {
-    font-size: 30px;
+    font-size: 40px;
     margin-top: 20px;
 }
 
 .first-view-text h2 {
     font-family: 'Montserrat' , sans-serif;
-    font-size: 56px;
+    font-size: 60px;
     line-height: 72px;
+    position: absolute;
+    bottom: 50px;
+    right: 0;
 }
 
-.lead {
+
+.about {
     max-width: 1200px;
-    margin: 100px auto;
-    /* background-image: url(./img/GRAY\ Web/laptop-img-2.png);
-    background-repeat: no-repeat;
-    background-size: 50%;
-    background-position: right; */
+    margin: 80px auto;
 }
 
-.lead h2 {
+.about h2 {
     font-size: 30px;
+    margin: 20px auto;
 }
 
-.lead p {
+.about p {
     line-height: 2;
 }
 
 /* PORTFOLIO */
 
 .portfolio {
+    background-color: #f0f0f0;
+    padding-top: 45px;
+    padding-bottom: 55px;
     margin: 80px 0 0;
 }
 
