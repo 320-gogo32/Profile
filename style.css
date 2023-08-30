@@ -43,7 +43,7 @@ img {
     align-items: center;
 }
 
-.toggle-mane-button {
+.toggle-menu-button {
     display: none;
 }
 
@@ -73,39 +73,6 @@ img {
 }
 
 
-.footer {
-    color: #ffffff;
-    background-color: #24211b;
-    padding-top: 30px;
-    padding-bottom: 15px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.footer-logo {
-    display: block;
-    width: 235px;
-    margin-top: 90px;
-}
-
-.footer-tel {
-    font-size: 20px;
-    font-weight: bold;
-    margin-top: 28px;
-}
-
-.footer-address {
-    font-size: 20px;
-    font-weight: bold;
-    margin-top: 16px;
-}
-
-.Copyright {
-    font-size: 14px;
-    font-weight: bold;
-    margin-top: 90px;
-}
 
 /* mainのcss */
 .first-view { 
@@ -153,6 +120,7 @@ img {
     right: 0;
 }
 
+/* ABOUT */
 
 .about {
     max-width: 1200px;
@@ -230,6 +198,42 @@ img {
     color: #000;
 }
 
+/* footer */
+.footer {
+    color: #ffffff;
+    background-color: #24211b;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-logo {
+    display: block;
+    width: 235px;
+    margin-top: 90px;
+}
+
+.footer-tel {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 28px;
+}
+
+.footer-address {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 16px;
+}
+
+.Copyright {
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 90px;
+}
+
+
 /* スマートフォン向けcss */
 @media (max-width: 800px) {
     /* header */
@@ -294,9 +298,74 @@ img {
         display: block;
     }
 
+    /* main */
     .main {
         padding-top: 50px;
     }
+
+    .first-view {
+        height: calc(100vh - 50px);
+        background-image: url(./img/IMG_4917.jpg);
+        align-items: flex-start;
+    }
+
+    .first-view-text {
+        padding-top: 200px;
+        padding-left: 20px;
+    }
+
+    .first-view-text h1 {
+        font-size: 36px;
+        line-height: 48px;
+    }
+
+    .first-view-text p {
+        font-size: 20px;
+        margin-top: 15px;
+    }
+
+    .first-view-text h2 {
+        font-size: 36px;
+        line-height: 48px;
+    }
+
+    /* ABOUT */
+
+    .about {
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+
+    .about p {
+        text-align: left;
+        font-size: 13px;
+    }
+
+    /* PORTFOLIO */
+
+    .portfolio {
+        padding-top: 15px;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-top: 30px;
+        /* margin-bottom: 20px; */
+    }
+
+    .portfolio .item-list {
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+
+    .portfolio .item-list .link {
+        margin-bottom: 10px;
+    }
+
+
+    /* footer */
 
     .footer-logo {
         margin-top: 60px;
