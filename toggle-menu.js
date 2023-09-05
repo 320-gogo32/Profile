@@ -8,5 +8,10 @@ window.addEventListener('load', function () {
         else {
             $menu.classList.add('is-show');
         }
+
+        // ボタンがクリックされた後にメニューを非表示にする
+        if (!$menu.classList.contains('is-show')) {
+            $menu.style.display = 'none';
+        }
     });
 });
